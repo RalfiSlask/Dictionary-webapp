@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- css -->
+  <link href="style.css" rel="stylesheet">
+  <title>Frontend Mentor | Dictionary web app</title>
+</head>
+<body>
+  <section class="section-main">
+
+    <!-- header -->
+
+  <header class="header">
+    <div class="container-left">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="38" viewBox="0 0 34 38"><g fill="none" fill-rule="evenodd" stroke="#838383" stroke-linecap="round" stroke-width="1.5"><path d="M1 33V5a4 4 0 0 1 4-4h26.8A1.2 1.2 0 0 1 33 2.2v26.228M5 29h28M5 37h28"/><path stroke-linejoin="round" d="M5 37a4 4 0 1 1 0-8"/><path d="M11 9h12"/></g></svg>
+      </div>
+    </div>
+    <div class="container-right">
+      <div class="panel-font">
+        <div class="font">Sans Serif</div>
+        <div class="dropdown">
+          <svg xmlns="http://www.w3.org/2000/svg" class="font-choice" width="14" height="8" viewBox="0 0 14 8"><path fill="none" stroke="#A445ED" stroke-width="1.5" d="m1 1 6 6 6-6"/></svg>
+          <div class="dropdown-content hidden">
+            <div class="fonts">Serif</div>
+            <div class="fonts">Sans Serif</div>
+            <div class="fonts">Mono</div>
+          </div>
+        </div>
+      </div>
+      <div class="string"></div>
+      <div class="panel-light">
+        <div class="slidecontainer">
+          <input type="range" min="1" max="2" value ="1" class="slider">
+        </div>
+        <div class="moon-container">  
+          <svg xmlns="http://www.w3.org/2000/svg" class="moon" width="22" height="22" viewBox="0 0 22 22"><path fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M1 10.449a10.544 10.544 0 0 0 19.993 4.686C11.544 15.135 6.858 10.448 6.858 1A10.545 10.545 0 0 0 1 10.449Z"/></svg>
+        </div>
+      </div>
+      
+      
+
+  </div>
+  </header>
+  
+    
+  <!-- form -->
+
+  <form class="form">
+    <input type="text" class="search" spellcheck="false" placeholder="Search for any word...">
+  </form>
+  <div class="no-word">Whoops, cant be empty</div>
+
+  <!-- javascript appending here -->
+
+  <section class="word-section">
+   
+</section>
+</section>
+
+<!-- javascript -->
+<script src="dic.js"></script>
+</body>
+</html>
