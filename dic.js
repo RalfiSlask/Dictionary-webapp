@@ -208,9 +208,7 @@ input.addEventListener("keypress", (event) => {
         const noun_three = document.querySelector(".noun-three");
         const play = document.querySelector(".play");
 
-        play.onhover = () => {
 
-        }
 
 
         // hiding noun definitions in case the API data does not have enougn data points     
